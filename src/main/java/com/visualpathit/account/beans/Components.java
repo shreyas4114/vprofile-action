@@ -3,7 +3,7 @@ package com.visualpathit.account.beans;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component 
 public class Components {
 	
 	@Value("${memcached.active.host}")
